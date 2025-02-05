@@ -1,1 +1,1 @@
-## Satisfy-Calc
+## satiscalc - Satisfactory CLI Recipe Calculator Utility
