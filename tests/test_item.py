@@ -6,8 +6,8 @@ class TestItem(unittest.TestCase):
 
     name = "Test Name"
     state = "solid"
-    amount = 100
-    test_item = item.Item(name=name, state=state, amount=amount)
+    rate = 100
+    test_item = item.Item(name=name, state=state, rate=rate)
 
     def test_set_name(self):
         self.assertEqual(self.test_item.name, self.name)
@@ -15,19 +15,19 @@ class TestItem(unittest.TestCase):
     def test_set_state(self):
         self.assertEqual(self.test_item.state, self.state)
 
-    def test_set_amount(self):
-        self.assertEqual(self.test_item.amount, self.amount)
+    def test_set_rate(self):
+        self.assertEqual(self.test_item.rate, self.rate)
 
 
 class TestBadState(unittest.TestCase):
 
     name = "Test Name"
     state = "THIS IS A BAD STATE"
-    amount = 100
+    rate = 100
 
     def test_bad_state(self):
         with self.assertRaises(Exception):
-            item.Item(name=self.name, state=self.state, amount=self.amount)
+            item.Item(name=self.name, state=self.state, rate=self.rate)
 
 
 if __name__ == "__main__":
