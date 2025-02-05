@@ -13,3 +13,6 @@ class Item:
 
     def __str__(self):
         return f"{self.amount} of item {self.name} in state {self.state}"
+
+    def __repr__(self):
+        return f"Item(name={self.name}, amount={self.amount}, state={self.state})"

@@ -7,6 +7,7 @@ class TestRecipe(unittest.TestCase):
     name = "Test Recipe"
     inputs = [item.Item("Test Ore", "solid", 100)]
     outputs = [item.Item("Test Item", "solid", 50)]
+    time = 10
     machine = "Constructor"
     is_alternate = False
 
@@ -14,6 +15,7 @@ class TestRecipe(unittest.TestCase):
         name=name,
         inputs=inputs,
         outputs=outputs,
+        time=time,
         machine=machine,
         is_alternate=is_alternate,
     )
@@ -28,6 +30,9 @@ class TestRecipe(unittest.TestCase):
 
     def test_set_outputs(self):
         self.assertEqual(self.test_recipe.outputs, self.outputs)
+
+    def test_set_time(self):
+        self.assertEqual(self.test_recipe.time, self.time)
 
     def test_set_machine(self):
         self.assertEqual(self.test_recipe.machine, self.machine)

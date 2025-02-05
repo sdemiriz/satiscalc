@@ -20,8 +20,6 @@ class TestMachine(unittest.TestCase):
         num_pipe_outputs=num_pipe_outputs,
     )
 
-    print(test_machine)
-
     def test_set_name(self):
         self.assertEqual(self.test_machine.name, self.name)
 
