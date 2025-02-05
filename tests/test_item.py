@@ -1,22 +1,33 @@
 import unittest
-from satiscalc.item import Item
+from lib import item
 
 
 class TestItem(unittest.TestCase):
 
     name = "Test Name"
-    type = "Solid"
+    state = "solid"
     amount = 100
-    test_item = Item(name=name, type=type, amount=amount)
+    test_item = item.Item(name=name, state=state, amount=amount)
 
     def test_set_name(self):
-        unittest.assertEqual(test_item.name, name)
+        self.assertEqual(self.test_item.name, self.name)
 
-    def test_set_type(self):
-        unittest.assertEqual(test_item.type, type)
+    def test_set_state(self):
+        self.assertEqual(self.test_item.state, self.state)
 
     def test_set_amount(self):
-        unittest.assertEqual(test_item.amount, amount)
+        self.assertEqual(self.test_item.amount, self.amount)
+
+
+class TestBadState(unittest.TestCase):
+
+    name = "Test Name"
+    state = "THIS IS A BAD STATE"
+    amount = 100
+
+    def test_bad_state(self):
+        with self.assertRaises(Exception):
+            item.Item(name=self.name, state=self.state, amount=self.amount)
 
 
 if __name__ == "__main__":
