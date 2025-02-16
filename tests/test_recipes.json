@@ -1,0 +1,21 @@
+{
+    "recipes": [
+        {
+            "name": "Test Ingot",
+            "inputs": [
+                {
+                    "name": "Test Ore",
+                    "rate": 100
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Test Ingot",
+                    "rate": 50
+                }
+            ],
+            "machine": "Smelter",
+            "is_alternate": false
+        }
+    ]
+}
