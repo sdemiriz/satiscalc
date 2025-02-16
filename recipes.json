@@ -1,47 +1,6 @@
 {
     "recipes": [
         {
-            "name": "",
-            "inputs": [
-                {
-                    "name": "",
-                    "rate": 0
-                },
-                {
-                    "name": "",
-                    "rate": 0
-                },
-                {
-                    "name": "",
-                    "rate": 0
-                },
-                {
-                    "name": "",
-                    "rate": 0
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "",
-                    "rate": 0
-                },
-                {
-                    "name": "",
-                    "rate": 0
-                },
-                {
-                    "name": "",
-                    "rate": 0
-                },
-                {
-                    "name": "",
-                    "rate": 0
-                }
-            ],
-            "building": "",
-            "is_alternate": false
-        },
-        {
             "name": "Iron Ingot",
             "inputs": [
                 {
@@ -55,7 +14,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Smelter",
+            "machine": "Smelter",
             "is_alternate": false
         },
         {
@@ -76,7 +35,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -97,7 +56,7 @@
                     "rate": 75
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -118,7 +77,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -139,7 +98,7 @@
                     "rate": 65
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -156,7 +115,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -177,7 +136,7 @@
                     "rate": 75
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -198,7 +157,7 @@
                     "rate": 45
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -215,7 +174,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -232,7 +191,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -249,7 +208,7 @@
                     "rate": 52.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -266,7 +225,7 @@
                     "rate": 48
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -283,7 +242,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Smelter",
+            "machine": "Smelter",
             "is_alternate": false
         },
         {
@@ -304,7 +263,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -325,7 +284,7 @@
                     "rate": 110
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -346,7 +305,7 @@
                     "rate": 37.5
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -367,7 +326,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -384,7 +343,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -401,7 +360,7 @@
                     "rate": 120
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -422,7 +381,7 @@
                     "rate": 90
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -439,7 +398,7 @@
                     "rate": 22.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -456,7 +415,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -477,7 +436,7 @@
                     "rate": 67.5
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -498,7 +457,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -519,7 +478,7 @@
                     "rate": 27.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -536,7 +495,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -557,7 +516,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -578,7 +537,7 @@
                     "rate": 90
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -599,7 +558,7 @@
                     "rate": 80
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -616,7 +575,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -633,7 +592,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -650,7 +609,7 @@
                     "rate": 52
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -671,7 +630,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -692,7 +651,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -713,7 +672,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -734,7 +693,7 @@
                     "rate": 5.625
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -751,7 +710,7 @@
                     "rate": 1500
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -768,7 +727,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -785,7 +744,7 @@
                     "rate": 150
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -802,7 +761,7 @@
                     "rate": 300
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -819,7 +778,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -840,7 +799,7 @@
                     "rate": 22.5
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -861,7 +820,7 @@
                     "rate": 4
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -882,7 +841,7 @@
                     "rate": 11.25
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -903,7 +862,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -924,7 +883,7 @@
                     "rate": 2
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -945,7 +904,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -966,7 +925,7 @@
                     "rate": 3
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -987,7 +946,7 @@
                     "rate": 2
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1012,7 +971,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1029,7 +988,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -1050,7 +1009,7 @@
                     "rate": 45
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": false
         },
         {
@@ -1071,7 +1030,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -1092,7 +1051,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -1113,7 +1072,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -1130,7 +1089,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -1147,7 +1106,7 @@
                     "rate": 22.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -1168,7 +1127,7 @@
                     "rate": 45
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -1185,7 +1144,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -1202,7 +1161,7 @@
                     "rate": 25
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -1223,7 +1182,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -1244,7 +1203,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1269,7 +1228,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -1290,7 +1249,7 @@
                     "rate": 6
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1311,7 +1270,7 @@
                     "rate": 4
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1332,7 +1291,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1353,7 +1312,7 @@
                     "rate": 8
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1374,7 +1333,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1395,7 +1354,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1420,7 +1379,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -1441,7 +1400,7 @@
                     "rate": 2.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1466,7 +1425,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -1487,7 +1446,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1508,7 +1467,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1529,7 +1488,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -1550,7 +1509,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1571,7 +1530,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1592,7 +1551,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -1613,7 +1572,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -1630,7 +1589,7 @@
                     "rate": 120
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1651,7 +1610,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -1672,7 +1631,7 @@
                     "rate": 8.75
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1693,7 +1652,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1714,7 +1673,7 @@
                     "rate": 12.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -1735,7 +1694,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1752,7 +1711,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1773,7 +1732,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -1794,7 +1753,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -1815,7 +1774,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -1836,7 +1795,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -1857,7 +1816,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -1878,7 +1837,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -1899,7 +1858,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -1920,7 +1879,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -1941,7 +1900,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -1962,7 +1921,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -1979,7 +1938,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -2000,7 +1959,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -2017,7 +1976,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": true
         },
         {
@@ -2042,7 +2001,7 @@
                     "rate": 2.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -2067,7 +2026,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2088,7 +2047,7 @@
                     "rate": 3.33333
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -2117,7 +2076,7 @@
                     "rate": 2
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -2146,7 +2105,7 @@
                     "rate": 2.8125
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2175,7 +2134,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2200,7 +2159,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -2229,7 +2188,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -2254,7 +2213,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -2275,7 +2234,7 @@
                     "rate": 120
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -2296,7 +2255,7 @@
                     "rate": 240
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -2317,7 +2276,7 @@
                     "rate": 120
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -2342,7 +2301,7 @@
                     "rate": 120
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -2367,7 +2326,7 @@
                     "rate": 105
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -2400,7 +2359,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -2421,7 +2380,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": false
         },
         {
@@ -2438,7 +2397,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Smelter",
+            "machine": "Smelter",
             "is_alternate": true
         },
         {
@@ -2459,7 +2418,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -2476,7 +2435,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -2497,7 +2456,7 @@
                     "rate": 112.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -2522,7 +2481,7 @@
                     "rate": 2.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -2547,7 +2506,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2576,7 +2535,7 @@
                     "rate": 4.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2597,7 +2556,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -2618,7 +2577,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -2639,7 +2598,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -2668,7 +2627,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -2697,7 +2656,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2726,7 +2685,7 @@
                     "rate": 1.875
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -2747,7 +2706,7 @@
                     "rate": 3
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -2776,7 +2735,7 @@
                     "rate": 2.4
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2797,7 +2756,7 @@
                     "rate": 0.75
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -2826,7 +2785,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -2855,7 +2814,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2884,7 +2843,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -2905,7 +2864,7 @@
                     "rate": 4
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -2926,7 +2885,7 @@
                     "rate": 8
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -2947,7 +2906,7 @@
                     "rate": 8
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -2972,7 +2931,7 @@
                     "rate": 0.4
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -3001,7 +2960,7 @@
                     "rate": 0.6
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -3022,7 +2981,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Nuclear Power Plant",
+            "machine": "Nuclear Power Plant",
             "is_alternate": false
         },
         {
@@ -3043,7 +3002,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -3064,7 +3023,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -3081,7 +3040,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -3102,7 +3061,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -3123,7 +3082,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -3152,7 +3111,7 @@
                     "rate": 6
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -3177,7 +3136,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -3202,7 +3161,7 @@
                     "rate": 1.5
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -3231,7 +3190,7 @@
                     "rate": 3
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -3260,7 +3219,7 @@
                     "rate": 1.875
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -3289,7 +3248,7 @@
                     "rate": 1.875
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -3318,7 +3277,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -3347,7 +3306,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -3372,7 +3331,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -3393,7 +3352,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -3414,7 +3373,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -3447,7 +3406,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -3480,7 +3439,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -3501,7 +3460,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": false
         },
         {
@@ -3522,7 +3481,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -3543,7 +3502,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3572,7 +3531,7 @@
                     "rate": 0.25
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -3593,7 +3552,7 @@
                     "rate": 0.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -3614,7 +3573,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Nuclear Power Plant",
+            "machine": "Nuclear Power Plant",
             "is_alternate": false
         },
         {
@@ -3631,7 +3590,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -3652,7 +3611,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -3673,7 +3632,7 @@
                     "rate": 0.5
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": false
         },
         {
@@ -3690,7 +3649,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": false
         },
         {
@@ -3711,7 +3670,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3728,7 +3687,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3745,7 +3704,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3766,7 +3725,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3787,7 +3746,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3804,7 +3763,7 @@
                     "rate": 6
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": false
         },
         {
@@ -3825,7 +3784,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": false
         },
         {
@@ -3846,7 +3805,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": false
         },
         {
@@ -3867,7 +3826,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": false
         },
         {
@@ -3884,7 +3843,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -3909,7 +3868,7 @@
                     "rate": 2
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -3922,7 +3881,7 @@
                     "rate": 200
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": false
         },
         {
@@ -3939,7 +3898,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": false
         },
         {
@@ -3960,7 +3919,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": false
         },
         {
@@ -3977,7 +3936,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -3998,7 +3957,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": true
         },
         {
@@ -4031,7 +3990,7 @@
                     "rate": 125
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -4064,7 +4023,7 @@
                     "rate": 75
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -4097,7 +4056,7 @@
                     "rate": 100
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -4126,7 +4085,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -4155,7 +4114,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -4180,7 +4139,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Particle Accelerator",
+            "machine": "Particle Accelerator",
             "is_alternate": false
         },
         {
@@ -4213,7 +4172,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -4246,7 +4205,7 @@
                     "rate": 50
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -4263,7 +4222,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4280,7 +4239,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4297,7 +4256,7 @@
                     "rate": 12.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4330,7 +4289,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -4347,7 +4306,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4364,7 +4323,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4381,7 +4340,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4398,7 +4357,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4415,7 +4374,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4432,7 +4391,7 @@
                     "rate": 1500
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4449,7 +4408,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4466,7 +4425,7 @@
                     "rate": 150
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4483,7 +4442,7 @@
                     "rate": 300
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4504,7 +4463,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -4525,7 +4484,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -4542,7 +4501,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Smelter",
+            "machine": "Smelter",
             "is_alternate": false
         },
         {
@@ -4563,7 +4522,7 @@
                     "rate": 36
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -4584,7 +4543,7 @@
                     "rate": 12
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -4605,7 +4564,7 @@
                     "rate": 22.5
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -4622,7 +4581,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4643,7 +4602,7 @@
                     "rate": 90
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -4664,7 +4623,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -4685,7 +4644,7 @@
                     "rate": 8
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -4710,7 +4669,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -4735,7 +4694,7 @@
                     "rate": 3
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -4752,7 +4711,7 @@
                     "rate": 22.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4773,7 +4732,7 @@
                     "rate": 54
                 }
             ],
-            "building": "Foundry",
+            "machine": "Foundry",
             "is_alternate": true
         },
         {
@@ -4794,7 +4753,7 @@
                     "rate": 52.5
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -4819,7 +4778,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -4836,7 +4795,7 @@
                     "rate": 37.5
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -4857,7 +4816,7 @@
                     "rate": 52.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -4886,7 +4845,7 @@
                     "rate": 80
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -4911,7 +4870,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -4936,7 +4895,7 @@
                     "rate": 1.875
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": true
         },
         {
@@ -4957,7 +4916,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -4978,7 +4937,7 @@
                     "rate": 45
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -4999,7 +4958,7 @@
                     "rate": 25
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": true
         },
         {
@@ -5020,7 +4979,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5049,7 +5008,7 @@
                     "rate": 45
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -5070,7 +5029,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -5091,7 +5050,7 @@
                     "rate": 18.75
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": true
         },
         {
@@ -5112,7 +5071,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5133,7 +5092,7 @@
                     "rate": 20
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -5158,7 +5117,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -5179,7 +5138,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5212,7 +5171,7 @@
                     "rate": 25
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": true
         },
         {
@@ -5233,7 +5192,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5258,7 +5217,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Refinery",
+            "machine": "Refinery",
             "is_alternate": false
         },
         {
@@ -5279,7 +5238,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5304,7 +5263,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Converter",
+            "machine": "Converter",
             "is_alternate": true
         },
         {
@@ -5325,7 +5284,7 @@
                     "rate": 40
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5342,7 +5301,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -5367,7 +5326,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -5400,7 +5359,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Quantum Encoder",
+            "machine": "Quantum Encoder",
             "is_alternate": false
         },
         {
@@ -5425,7 +5384,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -5442,7 +5401,7 @@
                     "rate": 15
                 }
             ],
-            "building": "Constructor",
+            "machine": "Constructor",
             "is_alternate": false
         },
         {
@@ -5463,7 +5422,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5484,7 +5443,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5505,7 +5464,7 @@
                     "rate": 2.5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5526,7 +5485,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5547,7 +5506,7 @@
                     "rate": 10
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5576,7 +5535,7 @@
                     "rate": 0.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -5597,7 +5556,7 @@
                     "rate": 5
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5618,7 +5577,7 @@
                     "rate": 25
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5639,7 +5598,7 @@
                     "rate": 75
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5664,7 +5623,7 @@
                     "rate": 250
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -5689,7 +5648,7 @@
                     "rate": 250
                 }
             ],
-            "building": "Blender",
+            "machine": "Blender",
             "is_alternate": false
         },
         {
@@ -5710,7 +5669,7 @@
                     "rate": 1
                 }
             ],
-            "building": "Assembler",
+            "machine": "Assembler",
             "is_alternate": false
         },
         {
@@ -5735,7 +5694,7 @@
                     "rate": 7.5
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -5760,7 +5719,7 @@
                     "rate": 3.75
                 }
             ],
-            "building": "Manufacturer",
+            "machine": "Manufacturer",
             "is_alternate": false
         },
         {
@@ -5781,7 +5740,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5802,7 +5761,7 @@
                     "rate": 120
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5823,7 +5782,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5844,7 +5803,7 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5865,7 +5824,7 @@
                     "rate": 30
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
         },
         {
@@ -5886,8 +5845,121 @@
                     "rate": 60
                 }
             ],
-            "building": "Packager",
+            "machine": "Packager",
             "is_alternate": false
+        }
+    ],
+    "items": [
+
+    ],
+    "machines": [
+        {
+            "name": "Smelter",
+            "min_mw": 4,
+            "max_mw": 4,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Constructor",
+            "min_mw": 4,
+            "max_mw": 4,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Assembler",
+            "min_mw": 15,
+            "max_mw": 15,
+            "conveyor_inputs": 2,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Manufacturer",
+            "min_mw": 55,
+            "max_mw": 55,
+            "conveyor_inputs": 4,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Refinery",
+            "min_mw": 30,
+            "max_mw": 30,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 1,
+            "pipe_outputs": 1
+        },
+        {
+            "name": "Foundry",
+            "min_mw": 16,
+            "max_mw": 16,
+            "conveyor_inputs": 2,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Blender",
+            "min_mw": 75,
+            "max_mw": 75,
+            "conveyor_inputs": 2,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 2,
+            "pipe_outputs": 1
+        },
+        {
+            "name": "Nuclear Power Plant",
+            "min_mw": 0,
+            "max_mw": 0,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 1,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Packager",
+            "min_mw": 10,
+            "max_mw": 10,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 1,
+            "pipe_outputs": 1
+        },
+        {
+            "name": "Particle Accelerator",
+            "min_mw": 10,
+            "max_mw": 10,
+            "conveyor_inputs": 2,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 1,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Quantum Encoder",
+            "min_mw": 10,
+            "max_mw": 10,
+            "conveyor_inputs": 3,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 1,
+            "pipe_outputs": 1
+        },
+        {
+            "name": "Converter",
+            "min_mw": 10,
+            "max_mw": 10,
+            "conveyor_inputs": 2,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 1 
         }
     ]
 }
