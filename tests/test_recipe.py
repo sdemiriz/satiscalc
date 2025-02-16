@@ -5,8 +5,8 @@ from lib import item, recipe
 class TestRecipe(unittest.TestCase):
 
     name = "Test Recipe"
-    inputs = [item.Item("Test Ore", "solid", 100)]
-    outputs = [item.Item("Test Item", "solid", 50)]
+    inputs = [item.Item("Test Ore", "solid", 100, is_raw=False)]
+    outputs = [item.Item("Test Item", "solid", 50, is_raw=False)]
     machine = "Constructor"
     is_alternate = False
 

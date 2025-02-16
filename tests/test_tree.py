@@ -4,7 +4,7 @@ from lib import tree, item
 
 class TestTree(unittest.TestCase):
 
-    results = [item.Item(name="Test Ingot", state="solid", rate=100)]
+    results = [item.Item(name="Test Ingot", state="solid", rate=100, is_raw=False)]
 
     test_tree = tree.Tree(results=results)
 
