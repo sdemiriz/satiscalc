@@ -27,6 +27,14 @@ class Item:
         """
         return f"Item(name={self.name}, rate={self.rate}, state={self.state})"
 
+    def __mul__(self, other: float):
+        return Item(
+            name=self.name, rate=self.rate * other, is_raw=self.is_raw, state=self.state
+        )
+
+    def __rmul__(self, other: float):
+        return self.__mul__(other=other)
+
     def item_is_raw(self) -> bool:
         """
         Return whether the item is a raw input (resource)
