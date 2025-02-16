@@ -2799,6 +2799,3095 @@
             ],
             "building": "Assembler",
             "is_alternate": false
+        },
+        {
+            "name": "Encased Uranium Cell",
+            "inputs": [
+                {
+                    "name": "Uranium",
+                    "rate": 50
+                },
+                {
+                    "name": "Concrete",
+                    "rate": 15
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "rate": 40
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Encased Uranium Cell",
+                    "rate": 25
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "rate": 10
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Infused Uranium Cell",
+            "inputs": [
+                {
+                    "name": "Uranium",
+                    "rate": 25
+                },
+                {
+                    "name": "Silica",
+                    "rate": 15
+                },
+                {
+                    "name": "Sulfur",
+                    "rate": 25
+                },
+                {
+                    "name": "Quickwire",
+                    "rate": 75
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Encased Uranium Cell",
+                    "rate": 20
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Infused Uranium Cell",
+            "inputs": [
+                {
+                    "name": "Uranium",
+                    "rate": 25
+                },
+                {
+                    "name": "Silica",
+                    "rate": 15
+                },
+                {
+                    "name": "Sulfur",
+                    "rate": 25
+                },
+                {
+                    "name": "Quickwire",
+                    "rate": 75
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Encased Uranium Cell",
+                    "rate": 20
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Electromagnetic Control Rod",
+            "inputs": [
+                {
+                    "name": "Stator",
+                    "rate": 6
+                },
+                {
+                    "name": "AI Limiter",
+                    "rate": 4
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 4
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Electromagnetic Connection Rod",
+            "inputs": [
+                {
+                    "name": "Stator",
+                    "rate": 8
+                },
+                {
+                    "name": "High-Speed Connector",
+                    "rate": 4
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 8
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Electromagnetic Connection Rod",
+            "inputs": [
+                {
+                    "name": "Stator",
+                    "rate": 8
+                },
+                {
+                    "name": "High-Speed Connector",
+                    "rate": 4
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 8
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Uranium Fuel Rod",
+            "inputs": [
+                {
+                    "name": "Encased Uranium Cell",
+                    "rate": 20
+                },
+                {
+                    "name": "Encased Industrial Beam",
+                    "rate": 1.2
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Uranium Fuel Rod",
+                    "rate": 0.4
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Uranium Fuel Unit",
+            "inputs": [
+                {
+                    "name": "Encased Uranium Cell",
+                    "rate": 20
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 2
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "rate": 0.6
+                },
+                {
+                    "name": "Rotor",
+                    "rate": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Uranium Fuel Rod",
+                    "rate": 0.6
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Uranium Fuel Rod (burning)",
+            "inputs": [
+                {
+                    "name": "Uranium Fuel Rod",
+                    "rate": 0.2
+                },
+                {
+                    "name": "Water",
+                    "rate": 240
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Uranium Waste",
+                    "rate": 10
+                }
+            ],
+            "building": "Nuclear Power Plant",
+            "is_alternate": false
+        },
+        {
+            "name": "Magnetic Field Generator",
+            "inputs": [
+                {
+                    "name": "Versatile Framework",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Magnetic Field Generator",
+                    "rate": 1
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Magnetic Field Generator",
+            "inputs": [
+                {
+                    "name": "Versatile Framework",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Magnetic Field Generator",
+                    "rate": 1
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Empty Fluid Tank",
+            "inputs": [
+                {
+                    "name": "Aluminum Ingot",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Empty Fuel Tank",
+                    "rate": 60
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Heat Sink",
+            "inputs": [
+                {
+                    "name": "Alclad Aluminum Sheet",
+                    "rate": 37.5
+                },
+                {
+                    "name": "Copper Sheet",
+                    "rate": 22.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Heat Sink",
+                    "rate": 7.5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Heat Exchanger",
+            "inputs": [
+                {
+                    "name": "Aluminum Casing",
+                    "rate": 30
+                },
+                {
+                    "name": "Rubber",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Heat Sink",
+                    "rate": 10
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Cooling System",
+            "inputs": [
+                {
+                    "name": "Heat Sink",
+                    "rate": 12
+                },
+                {
+                    "name": "Rubber",
+                    "rate": 12
+                },
+                {
+                    "name": "Water",
+                    "rate": 30
+                },
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 150
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cooling System",
+                    "rate": 6
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Cooling Device",
+            "inputs": [
+                {
+                    "name": "Heat Sink",
+                    "rate": 10
+                },
+                {
+                    "name": "Motor",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cooling System",
+                    "rate": 5
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": true
+        },
+        {
+            "name": "Fused Modular Frame",
+            "inputs": [
+                {
+                    "name": "Heavy Modular Frame",
+                    "rate": 1.5
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "rate": 75
+                },
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 37.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fused Modular Frame",
+                    "rate": 1.5
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Heat-Fused Frame",
+            "inputs": [
+                {
+                    "name": "Heavy Modular Frame",
+                    "rate": 3
+                },
+                {
+                    "name": "Aluminum Ingot",
+                    "rate": 150
+                },
+                {
+                    "name": "Nitric Acid",
+                    "rate": 24
+                },
+                {
+                    "name": "Fuel",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fused Modular Frame",
+                    "rate": 3
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": true
+        },
+        {
+            "name": "Turbo Motor",
+            "inputs": [
+                {
+                    "name": "Cooling System",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Radio Control Unit",
+                    "rate": 3.75
+                },
+                {
+                    "name": "Motor",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Rubber",
+                    "rate": 45
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbo Motor",
+                    "rate": 1.875
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Turbo Electric Motor",
+            "inputs": [
+                {
+                    "name": "Motor",
+                    "rate": 6.5625
+                },
+                {
+                    "name": "Radio Control Unit",
+                    "rate": 8.4375
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 4.6875
+                },
+                {
+                    "name": "Rotor",
+                    "rate": 6.5625
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbo Motor",
+                    "rate": 1.875
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Turbo Pressure Motor",
+            "inputs": [
+                {
+                    "name": "Motor",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Pressure Conversion Cube",
+                    "rate": 1.875
+                },
+                {
+                    "name": "Packaged Nitrogen Gas",
+                    "rate": 45
+                },
+                {
+                    "name": "Stator",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbo Motor",
+                    "rate": 3.75
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Thermal Propulsion Rocket",
+            "inputs": [
+                {
+                    "name": "Modular Engine",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Turbo Motor",
+                    "rate": 1
+                },
+                {
+                    "name": "Cooling System",
+                    "rate": 3
+                },
+                {
+                    "name": "Fused Modular Frame",
+                    "rate": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Thermal Propulsion Rocket",
+                    "rate": 1
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Nitric Acid",
+            "inputs": [
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 120
+                },
+                {
+                    "name": "Water",
+                    "rate": 30
+                },
+                {
+                    "name": "Iron Plate",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nitric Acid",
+                    "rate": 30
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Unpackage Nitric Acid",
+            "inputs": [
+                {
+                    "name": "Packaged Nitric Acid",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nitric Acid",
+                    "rate": 20
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 20
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Packaged Nitric Acid",
+            "inputs": [
+                {
+                    "name": "Nitric Acid",
+                    "rate": 30
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Nitric Acid",
+                    "rate": 30
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Non-Fissile Uranium",
+            "inputs": [
+                {
+                    "name": "Uranium Waste",
+                    "rate": 37.5
+                },
+                {
+                    "name": "Silica",
+                    "rate": 25
+                },
+                {
+                    "name": "Nitric Acid",
+                    "rate": 15
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Non-Fissile Uranium",
+                    "rate": 20
+                },
+                {
+                    "name": "Water",
+                    "rate": 15
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Fertile Uranium",
+            "inputs": [
+                {
+                    "name": "Uranium",
+                    "rate": 25
+                },
+                {
+                    "name": "Uranium Waste",
+                    "rate": 25
+                },
+                {
+                    "name": "Nitric Acid",
+                    "rate": 15
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "rate": 25
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Non-Fissile Uranium",
+                    "rate": 100
+                },
+                {
+                    "name": "Water",
+                    "rate": 40
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": true
+        },
+        {
+            "name": "Plutonium Pellet",
+            "inputs": [
+                {
+                    "name": "Non-Fissile Uranium",
+                    "rate": 100
+                },
+                {
+                    "name": "Uranium Waste",
+                    "rate": 25
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Plutonium Pellet",
+                    "rate": 30
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": false
+        },
+        {
+            "name": "Encased Plutonium Cell",
+            "inputs": [
+                {
+                    "name": "Plutonium Pellet",
+                    "rate": 10
+                },
+                {
+                    "name": "Concrete",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Encased Plutonium Cell",
+                    "rate": 5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Instant Plutonium Cell",
+            "inputs": [
+                {
+                    "name": "Non-Fissile Uranium",
+                    "rate": 75
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Encased Plutonium Cell",
+                    "rate": 10
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Plutonium Fuel Rod",
+            "inputs": [
+                {
+                    "name": "Encased Plutonium Cell",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Steel Beam",
+                    "rate": 4.5
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 1.5
+                },
+                {
+                    "name": "Heat Sink",
+                    "rate": 2.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Plutonium Fuel Rod",
+                    "rate": 0.25
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Plutonium Fuel Unit",
+            "inputs": [
+                {
+                    "name": "Encased Plutonium Cell",
+                    "rate": 10
+                },
+                {
+                    "name": "Pressure Conversion Cube",
+                    "rate": 0.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Plutonium Fuel Rod",
+                    "rate": 0.5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Plutonium Fuel Rod (burning)",
+            "inputs": [
+                {
+                    "name": "Plutonium Fuel Rod",
+                    "rate": 0.1
+                },
+                {
+                    "name": "Water",
+                    "rate": 240
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Plutonium Waste",
+                    "rate": 1
+                }
+            ],
+            "building": "Nuclear Power Plant",
+            "is_alternate": false
+        },
+        {
+            "name": "Copper Powder",
+            "inputs": [
+                {
+                    "name": "Copper Ingot",
+                    "rate": 300
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Copper Powder",
+                    "rate": 50
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Pressure Conversion Cube",
+            "inputs": [
+                {
+                    "name": "Fused Modular Frame",
+                    "rate": 1
+                },
+                {
+                    "name": "Radio Control Unit",
+                    "rate": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Pressure Conversion Cube",
+                    "rate": 1
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Nuclear Pasta",
+            "inputs": [
+                {
+                    "name": "Copper Powder",
+                    "rate": 100
+                },
+                {
+                    "name": "Pressure Conversion Cube",
+                    "rate": 0.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nuclear Pasta",
+                    "rate": 0.5
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": false
+        },
+        {
+            "name": "Diamonds",
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "rate": 600
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 30
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": false
+        },
+        {
+            "name": "Cloudy Diamonds",
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "rate": 240
+                },
+                {
+                    "name": "Coal",
+                    "rate": 480
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 20
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Oil-Based Diamonds",
+            "inputs": [
+                {
+                    "name": "Crude Oil",
+                    "rate": 200
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 40
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Petroleum Diamonds",
+            "inputs": [
+                {
+                    "name": "Petroleum Coke",
+                    "rate": 720
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 30
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Pink Diamonds",
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "rate": 120
+                },
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 45
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 15
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Turbo Diamonds",
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "rate": 600
+                },
+                {
+                    "name": "Packaged Turbofuel",
+                    "rate": 40
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 60
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Time Crystal",
+            "inputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 12
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Time Crystal",
+                    "rate": 6
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsite Ingot (Aluminum)",
+            "inputs": [
+                {
+                    "name": "Reanimated SAM",
+                    "rate": 60
+                },
+                {
+                    "name": "Aluminum Ingot",
+                    "rate": 120
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsite Ingot",
+                    "rate": 30
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsite Ingot (Caterium)",
+            "inputs": [
+                {
+                    "name": "Reanimated SAM",
+                    "rate": 45
+                },
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsite Ingot",
+                    "rate": 15
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsite Ingot (Iron)",
+            "inputs": [
+                {
+                    "name": "Reanimated SAM",
+                    "rate": 40
+                },
+                {
+                    "name": "Iron Ingot",
+                    "rate": 240
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsite Ingot",
+                    "rate": 10
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsite Trigon",
+            "inputs": [
+                {
+                    "name": "Ficsite Ingot",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsite Trigon",
+                    "rate": 30
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Biochemical Sculptor",
+            "inputs": [
+                {
+                    "name": "Assembly Director System",
+                    "rate": 0.5
+                },
+                {
+                    "name": "Ficsite Trigon",
+                    "rate": 40
+                },
+                {
+                    "name": "Water",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Biochemical Sculptor",
+                    "rate": 2
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Excited Photonic Matter",
+            "inputs": [
+            ],
+            "outputs": [
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 200
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": false
+        },
+        {
+            "name": "Dark Matter Residue",
+            "inputs": [
+                {
+                    "name": "Reanimated SAM",
+                    "rate": 50
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 100
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": false
+        },
+        {
+            "name": "Dark Matter Crystal",
+            "inputs": [
+                {
+                    "name": "Diamonds",
+                    "rate": 30
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 150
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 30
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": false
+        },
+        {
+            "name": "Dark Matter Crystallization",
+            "inputs": [
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 200
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 20
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Dark Matter Trap",
+            "inputs": [
+                {
+                    "name": "Time Crystal",
+                    "rate": 30
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 150
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 60
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": true
+        },
+        {
+            "name": "Superposition Oscillator",
+            "inputs": [
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 30
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "rate": 5
+                },
+                {
+                    "name": "Alclad Aluminum Sheet",
+                    "rate": 45
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 125
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Superposition Oscillator",
+                    "rate": 5
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 125
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "Neural-Quantum Processor",
+            "inputs": [
+                {
+                    "name": "Time Crystal",
+                    "rate": 15
+                },
+                {
+                    "name": "Supercomputer",
+                    "rate": 3
+                },
+                {
+                    "name": "Ficsite Trigon",
+                    "rate": 45
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 75
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Neural-Quantum Processor",
+                    "rate": 3
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 75
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "AI Expansion Server",
+            "inputs": [
+                {
+                    "name": "Magnetic Field Generator",
+                    "rate": 4
+                },
+                {
+                    "name": "Neural-Quantum Processor",
+                    "rate": 4
+                },
+                {
+                    "name": "Superposition Oscillator",
+                    "rate": 4
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 100
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AI Expansion Server",
+                    "rate": 4
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 100
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "Singularity Cell",
+            "inputs": [
+                {
+                    "name": "Nuclear Pasta",
+                    "rate": 1
+                },
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 20
+                },
+                {
+                    "name": "Iron Plate",
+                    "rate": 100
+                },
+                {
+                    "name": "Concrete",
+                    "rate": 200
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Singularity Cell",
+                    "rate": 10
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Ballistic Warp Drive",
+            "inputs": [
+                {
+                    "name": "Thermal Propulsion Rocket",
+                    "rate": 1
+                },
+                {
+                    "name": "Singularity Cell",
+                    "rate": 5
+                },
+                {
+                    "name": "Superposition Oscillator",
+                    "rate": 2
+                },
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 40
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ballistic Warp Drive",
+                    "rate": 1
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsonium",
+            "inputs": [
+                {
+                    "name": "Plutonium Waste",
+                    "rate": 10
+                },
+                {
+                    "name": "Singularity Cell",
+                    "rate": 10
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 200
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsonium",
+                    "rate": 10
+                }
+            ],
+            "building": "Particle Accelerator",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsonium Fuel Rod",
+            "inputs": [
+                {
+                    "name": "Ficsonium",
+                    "rate": 5
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 5
+                },
+                {
+                    "name": "Ficsite Trigon",
+                    "rate": 100
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 50
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsonium Fuel Rod",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 50
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "Ficsonium Fuel Rod",
+            "inputs": [
+                {
+                    "name": "Ficsonium",
+                    "rate": 5
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "rate": 5
+                },
+                {
+                    "name": "Ficsite Trigon",
+                    "rate": 100
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 50
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ficsonium Fuel Rod",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 50
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "Power Shard (1)",
+            "inputs": [
+                {
+                    "name": "Blue Power Slug",
+                    "rate": 7.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Power Shard",
+                    "rate": 7.5
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Power Shard (2)",
+            "inputs": [
+                {
+                    "name": "Yellow Power Slug",
+                    "rate": 5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Power Shard",
+                    "rate": 10
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Power Shard (3)",
+            "inputs": [
+                {
+                    "name": "Purple Power Slug",
+                    "rate": 2.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Power Shard",
+                    "rate": 12.5
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Synthetic Power Shard",
+            "inputs": [
+                {
+                    "name": "Time Crystal",
+                    "rate": 10
+                },
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 10
+                },
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 60
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Power Shard",
+                    "rate": 5
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 60
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "Hatcher Protein",
+            "inputs": [
+                {
+                    "name": "Hatcher Remains",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Alien Protein",
+                    "rate": 20
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Hog Protein",
+            "inputs": [
+                {
+                    "name": "Hog Remains",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Alien Protein",
+                    "rate": 20
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Spitter Protein",
+            "inputs": [
+                {
+                    "name": "Spitter Remains",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Alien Protein",
+                    "rate": 20
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Stinger Protein",
+            "inputs": [
+                {
+                    "name": "Stinger Remains",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Alien Protein",
+                    "rate": 20
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Alien DNA Capsule",
+            "inputs": [
+                {
+                    "name": "Alien Protein",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Alien DNA Capsule",
+                    "rate": 10
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Biomass (Alien Protein)",
+            "inputs": [
+                {
+                    "name": "Alien Protein",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Biomass",
+                    "rate": 1500
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Biomass (Leaves)",
+            "inputs": [
+                {
+                    "name": "Leaves",
+                    "rate": 120
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Biomass",
+                    "rate": 60
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Biomass (Mycelia)",
+            "inputs": [
+                {
+                    "name": "Mycelia",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Biomass",
+                    "rate": 150
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Biomass (Wood)",
+            "inputs": [
+                {
+                    "name": "Wood",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Biomass",
+                    "rate": 300
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Fabric",
+            "inputs": [
+                {
+                    "name": "Mycelia",
+                    "rate": 15
+                },
+                {
+                    "name": "Biomass",
+                    "rate": 75
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fabric",
+                    "rate": 15
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Polyester Fabric",
+            "inputs": [
+                {
+                    "name": "Polymer Resin",
+                    "rate": 30
+                },
+                {
+                    "name": "Water",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Fabric",
+                    "rate": 30
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Caterium Ingot",
+            "inputs": [
+                {
+                    "name": "Caterium Ore",
+                    "rate": 45
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 15
+                }
+            ],
+            "building": "Smelter",
+            "is_alternate": false
+        },
+        {
+            "name": "Leached Caterium Ingot",
+            "inputs": [
+                {
+                    "name": "Caterium Ore",
+                    "rate": 54
+                },
+                {
+                    "name": "Sulfuric Acid",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 36
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Pure Caterium Ingot",
+            "inputs": [
+                {
+                    "name": "Caterium Ore",
+                    "rate": 24
+                },
+                {
+                    "name": "Water",
+                    "rate": 24
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 12
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Tempered Caterium Ingot",
+            "inputs": [
+                {
+                    "name": "Caterium Ore",
+                    "rate": 45
+                },
+                {
+                    "name": "Petroleum Coke",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 22.5
+                }
+            ],
+            "building": "Foundry",
+            "is_alternate": true
+        },
+        {
+            "name": "Quickwire",
+            "inputs": [
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 12
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Quickwire",
+                    "rate": 60
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Fused Quickwire",
+            "inputs": [
+                {
+                    "name": "Caterium Ingot",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Copper Ingot",
+                    "rate": 37.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Quickwire",
+                    "rate": 90
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "AI Limiter",
+            "inputs": [
+                {
+                    "name": "Copper Sheet",
+                    "rate": 25
+                },
+                {
+                    "name": "Quickwire",
+                    "rate": 100
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AI Limiter",
+                    "rate": 5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Plastic AI Limiter",
+            "inputs": [
+                {
+                    "name": "Quickwire",
+                    "rate": 120
+                },
+                {
+                    "name": "Plastic",
+                    "rate": 28
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "AI Limiter",
+                    "rate": 8
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "High-Speed Connector",
+            "inputs": [
+                {
+                    "name": "Quickwire",
+                    "rate": 210
+                },
+                {
+                    "name": "Cable",
+                    "rate": 37.5
+                },
+                {
+                    "name": "Circuit Board",
+                    "rate": 3.75
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "High-Speed Connector",
+                    "rate": 3.75
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Silicone High-Speed Connector",
+            "inputs": [
+                {
+                    "name": "Quickwire",
+                    "rate": 90
+                },
+                {
+                    "name": "Silica",
+                    "rate": 37.5
+                },
+                {
+                    "name": "Circuit Board",
+                    "rate": 3
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "High-Speed Connector",
+                    "rate": 3
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Quartz Crystal",
+            "inputs": [
+                {
+                    "name": "Raw Quartz",
+                    "rate": 37.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 22.5
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Fused Quartz Crystal",
+            "inputs": [
+                {
+                    "name": "Raw Quartz",
+                    "rate": 75
+                },
+                {
+                    "name": "Coal",
+                    "rate": 36
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 54
+                }
+            ],
+            "building": "Foundry",
+            "is_alternate": true
+        },
+        {
+            "name": "Pure Quartz Crystal",
+            "inputs": [
+                {
+                    "name": "Raw Quartz",
+                    "rate": 67.5
+                },
+                {
+                    "name": "Water",
+                    "rate": 37.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 52.5
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Quartz Purification",
+            "inputs": [
+                {
+                    "name": "Raw Quartz",
+                    "rate": 120
+                },
+                {
+                    "name": "Nitric Acid",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 75
+                },
+                {
+                    "name": "Dissolved Silica",
+                    "rate": 60
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Silica",
+            "inputs": [
+                {
+                    "name": "Raw Quartz",
+                    "rate": 22.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Silica",
+                    "rate": 37.5
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Cheap Silica",
+            "inputs": [
+                {
+                    "name": "Raw Quartz",
+                    "rate": 22.5
+                },
+                {
+                    "name": "Limestone",
+                    "rate": 37.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Silica",
+                    "rate": 52.5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Distilled Silica",
+            "inputs": [
+                {
+                    "name": "Dissolved Silica",
+                    "rate": 22.5
+                },
+                {
+                    "name": "Limestone",
+                    "rate": 50
+                },
+                {
+                    "name": "Water",
+                    "rate": 100
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Silica",
+                    "rate": 270
+                },
+                {
+                    "name": "Water",
+                    "rate": 80
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": true
+        },
+        {
+            "name": "Crystal Oscillator",
+            "inputs": [
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 18
+                },
+                {
+                    "name": "Cable",
+                    "rate": 14
+                },
+                {
+                    "name": "Reinforced Iron Plate",
+                    "rate": 2.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Crystal Oscillator",
+                    "rate": 1
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Insulated Crystal Oscillator",
+            "inputs": [
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 18.75
+                },
+                {
+                    "name": "Rubber",
+                    "rate": 13.125
+                },
+                {
+                    "name": "AI Limiter",
+                    "rate": 1.875
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Crystal Oscillator",
+                    "rate": 1.875
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": true
+        },
+        {
+            "name": "Black Powder",
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "rate": 15
+                },
+                {
+                    "name": "Sulfur",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Black Powder",
+                    "rate": 30
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Fine Black Powder",
+            "inputs": [
+                {
+                    "name": "Sulfur",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Black Powder",
+                    "rate": 45
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Compacted Coal",
+            "inputs": [
+                {
+                    "name": "Coal",
+                    "rate": 25
+                },
+                {
+                    "name": "Sulfur",
+                    "rate": 25
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Compacted Coal",
+                    "rate": 25
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": true
+        },
+        {
+            "name": "Unpackage Turbofuel",
+            "inputs": [
+                {
+                    "name": "Packaged Turbofuel",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbofuel",
+                    "rate": 20
+                },
+                {
+                    "name": "Empty Canister",
+                    "rate": 20
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Turbo Blend Fuel",
+            "inputs": [
+                {
+                    "name": "Fuel",
+                    "rate": 15
+                },
+                {
+                    "name": "Heavy Oil Residue",
+                    "rate": 30
+                },
+                {
+                    "name": "Sulfur",
+                    "rate": 22.5
+                },
+                {
+                    "name": "Petroleum Coke",
+                    "rate": 22.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbofuel",
+                    "rate": 45
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": true
+        },
+        {
+            "name": "Turbo Heavy Fuel",
+            "inputs": [
+                {
+                    "name": "Heavy Oil Residue",
+                    "rate": 37.5
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbofuel",
+                    "rate": 30
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Turbofuel",
+            "inputs": [
+                {
+                    "name": "Fuel",
+                    "rate": 22.5
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbofuel",
+                    "rate": 18.75
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": true
+        },
+        {
+            "name": "Packaged Turbofuel",
+            "inputs": [
+                {
+                    "name": "Turbofuel",
+                    "rate": 20
+                },
+                {
+                    "name": "Empty Canister",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Turbofuel",
+                    "rate": 20
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Smokeless Powder",
+            "inputs": [
+                {
+                    "name": "Black Powder",
+                    "rate": 20
+                },
+                {
+                    "name": "Heavy Oil Residue",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Smokeless Powder",
+                    "rate": 20
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": false
+        },
+        {
+            "name": "Rocket Fuel",
+            "inputs": [
+                {
+                    "name": "Turbofuel",
+                    "rate": 60
+                },
+                {
+                    "name": "Nitric Acid",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rocket Fuel",
+                    "rate": 100
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 10
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Unpackage Rocket Fuel",
+            "inputs": [
+                {
+                    "name": "Packaged Rocket Fuel",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rocket Fuel",
+                    "rate": 120
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 60
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Nitro Rocket Fuel",
+            "inputs": [
+                {
+                    "name": "Fuel",
+                    "rate": 100
+                },
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 75
+                },
+                {
+                    "name": "Sulfur",
+                    "rate": 100
+                },
+                {
+                    "name": "Coal",
+                    "rate": 150
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rocket Fuel",
+                    "rate": 150
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 25
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": true
+        },
+        {
+            "name": "Packaged Rocket Fuel",
+            "inputs": [
+                {
+                    "name": "Rocket Fuel",
+                    "rate": 120
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Rocket Fuel",
+                    "rate": 60
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Ionized Fuel",
+            "inputs": [
+                {
+                    "name": "Rocket Fuel",
+                    "rate": 40
+                },
+                {
+                    "name": "Power Shard",
+                    "rate": 2.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ionized Fuel",
+                    "rate": 40
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 5
+                }
+            ],
+            "building": "Refinery",
+            "is_alternate": false
+        },
+        {
+            "name": "Unpackage Ionized Fuel",
+            "inputs": [
+                {
+                    "name": "Packaged Ionized Fuel",
+                    "rate": 40
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ionized Fuel",
+                    "rate": 80
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 40
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Dark-Ion Fuel",
+            "inputs": [
+                {
+                    "name": "Packaged Rocket Fuel",
+                    "rate": 240
+                },
+                {
+                    "name": "Dark Matter Crystal",
+                    "rate": 80
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Ionized Fuel",
+                    "rate": 200
+                },
+                {
+                    "name": "Compacted Coal",
+                    "rate": 40
+                }
+            ],
+            "building": "Converter",
+            "is_alternate": true
+        },
+        {
+            "name": "Packaged Ionized Fuel",
+            "inputs": [
+                {
+                    "name": "Ionized Fuel",
+                    "rate": 80
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 40
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Ionized Fuel",
+                    "rate": 40
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Reanimated SAM",
+            "inputs": [
+                {
+                    "name": "SAM",
+                    "rate": 120
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Reanimated SAM",
+                    "rate": 30
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "SAM Fluctuator",
+            "inputs": [
+                {
+                    "name": "Reanimated SAM",
+                    "rate": 60
+                },
+                {
+                    "name": "Wire",
+                    "rate": 50
+                },
+                {
+                    "name": "Steel Pipe",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "SAM Fluctuator",
+                    "rate": 10
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Alien Power Matrix",
+            "inputs": [
+                {
+                    "name": "SAM Fluctuator",
+                    "rate": 12.5
+                },
+                {
+                    "name": "Power Shard",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Superposition Oscillator",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Excited Photonic Matter",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Alien Power Matrix",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Dark Matter Residue",
+                    "rate": 60
+                }
+            ],
+            "building": "Quantum Encoder",
+            "is_alternate": false
+        },
+        {
+            "name": "Explosive Rebar",
+            "inputs": [
+                {
+                    "name": "Iron Rebar",
+                    "rate": 10
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "rate": 10
+                },
+                {
+                    "name": "Steel Pipe",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Explosive Rebar",
+                    "rate": 5
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Iron Rebar",
+            "inputs": [
+                {
+                    "name": "Iron Rod",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Iron Rebar",
+                    "rate": 15
+                }
+            ],
+            "building": "Constructor",
+            "is_alternate": false
+        },
+        {
+            "name": "Shatter Rebar",
+            "inputs": [
+                {
+                    "name": "Iron Rebar",
+                    "rate": 10
+                },
+                {
+                    "name": "Quartz Crystal",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Shatter Rebar",
+                    "rate": 5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Stun Rebar",
+            "inputs": [
+                {
+                    "name": "Iron Rebar",
+                    "rate": 10
+                },
+                {
+                    "name": "Quickwire",
+                    "rate": 50
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Stun Rebar",
+                    "rate": 10
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Cluster Nobelisk",
+            "inputs": [
+                {
+                    "name": "Nobelisk",
+                    "rate": 7.5
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Cluster Nobelisk",
+                    "rate": 2.5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Gas Nobelisk",
+            "inputs": [
+                {
+                    "name": "Nobelisk",
+                    "rate": 5
+                },
+                {
+                    "name": "Biomass",
+                    "rate": 50
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Gas Nobelisk",
+                    "rate": 5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Nobelisk",
+            "inputs": [
+                {
+                    "name": "Black Powder",
+                    "rate": 20
+                },
+                {
+                    "name": "Steel Pipe",
+                    "rate": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nobelisk",
+                    "rate": 10
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Nuke Nobelisk",
+            "inputs": [
+                {
+                    "name": "Nobelisk",
+                    "rate": 2.5
+                },
+                {
+                    "name": "Encased Uranium Cell",
+                    "rate": 10
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "rate": 5
+                },
+                {
+                    "name": "AI Limiter",
+                    "rate": 3
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nuke Nobelisk",
+                    "rate": 0.5
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Pulse Nobelisk",
+            "inputs": [
+                {
+                    "name": "Nobelisk",
+                    "rate": 5
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "rate": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Pulse Nobelisk",
+                    "rate": 5
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Homing Rifle Ammo",
+            "inputs": [
+                {
+                    "name": "Rifle Ammo",
+                    "rate": 20
+                },
+                {
+                    "name": "High-Speed Connector",
+                    "rate": 2.5
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Homing Rifle Ammo",
+                    "rate": 25
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Rifle Ammo",
+            "inputs": [
+                {
+                    "name": "Copper Sheet",
+                    "rate": 15
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "rate": 10
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Rifle Ammo",
+                    "rate": 75
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Turbo Rifle Ammo",
+            "inputs": [
+                {
+                    "name": "Rifle Ammo",
+                    "rate": 125
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "rate": 15
+                },
+                {
+                    "name": "Packaged Turbofuel",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbo Rifle Ammo",
+                    "rate": 250
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Turbo Rifle Ammo",
+            "inputs": [
+                {
+                    "name": "Rifle Ammo",
+                    "rate": 125
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "rate": 15
+                },
+                {
+                    "name": "Turbofuel",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Turbo Rifle Ammo",
+                    "rate": 250
+                }
+            ],
+            "building": "Blender",
+            "is_alternate": false
+        },
+        {
+            "name": "Automated Miner",
+            "inputs": [
+                {
+                    "name": "Steel Pipe",
+                    "rate": 4
+                },
+                {
+                    "name": "Iron Plate",
+                    "rate": 4
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Portable Miner",
+                    "rate": 1
+                }
+            ],
+            "building": "Assembler",
+            "is_alternate": false
+        },
+        {
+            "name": "Gas Filter",
+            "inputs": [
+                {
+                    "name": "Fabric",
+                    "rate": 15
+                },
+                {
+                    "name": "Coal",
+                    "rate": 10
+                },
+                {
+                    "name": "Iron Plate",
+                    "rate": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Gas Filter",
+                    "rate": 7.5
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Iodine-Infused Filter",
+            "inputs": [
+                {
+                    "name": "Gas Filter",
+                    "rate": 3.75
+                },
+                {
+                    "name": "Quickwire",
+                    "rate": 30
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "rate": 3.75
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Iodine-Infused Filter",
+                    "rate": 3.75
+                }
+            ],
+            "building": "Manufacturer",
+            "is_alternate": false
+        },
+        {
+            "name": "Packaged Water",
+            "inputs": [
+                {
+                    "name": "Water",
+                    "rate": 60
+                },
+                {
+                    "name": "Empty Canister",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Water",
+                    "rate": 60
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Unpackage Water",
+            "inputs": [
+                {
+                    "name": "Packaged Water",
+                    "rate": 120
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Water",
+                    "rate": 120
+                },
+                {
+                    "name": "Empty Canister",
+                    "rate": 120
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Packaged Nitrogen Gas",
+            "inputs": [
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 240
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Nitrogen Gas",
+                    "rate": 60
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Unpackage Nitrogen Gas",
+            "inputs": [
+                {
+                    "name": "Packaged Nitrogen Gas",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Nitrogen Gas",
+                    "rate": 240
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "rate": 60
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Packaged Crude Oil",
+            "inputs": [
+                {
+                    "name": "Crude Oil",
+                    "rate": 30
+                },
+                {
+                    "name": "Empty Canister",
+                    "rate": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Packaged Crude Oil",
+                    "rate": 30
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
+        },
+        {
+            "name": "Unpackage Crude Oil",
+            "inputs": [
+                {
+                    "name": "Packaged Crude Oil",
+                    "rate": 60
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Crude Oil",
+                    "rate": 60
+                },
+                {
+                    "name": "Empty Canister",
+                    "rate": 60
+                }
+            ],
+            "building": "Packager",
+            "is_alternate": false
         }
     ]
 }
