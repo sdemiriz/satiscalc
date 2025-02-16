@@ -75,65 +75,37 @@ class TestHasName(unittest.TestCase):
         self.assertFalse(test_item.item_has_name("TESTING"))
 
 
-class TestMulOverride(unittest.TestCase):
+class TestMultiply(unittest.TestCase):
 
     name = "Test Item"
     state = "solid"
-    rate = 100
+    base_rate = 100
     is_raw = True
 
     multiplier_int = 10
     multiplier_float = 1.5
 
-    def test_mul_int(self):
+    def test_multiply_int(self):
         test_item = item.Item(
-            name=self.name, state=self.state, rate=self.rate, is_raw=self.is_raw
+            name=self.name, state=self.state, rate=self.base_rate, is_raw=self.is_raw
         )
-        test_item_multiplied = test_item * self.multiplier_int
-        self.assertEqual(
-            test_item_multiplied.rate, test_item.rate * self.multiplier_int
-        )
-        self.assertEqual(test_item_multiplied.name, test_item.name)
-        self.assertEqual(test_item_multiplied.state, test_item.state)
-        self.assertEqual(test_item_multiplied.is_raw, test_item.is_raw)
+        test_item.multiply(self.multiplier_int)
 
-    def test_rmul_int(self):
+        self.assertEqual(test_item.rate, self.base_rate * self.multiplier_int)
+        self.assertEqual(test_item.name, test_item.name)
+        self.assertEqual(test_item.state, test_item.state)
+        self.assertEqual(test_item.is_raw, test_item.is_raw)
+
+    def test_multiply_float(self):
         test_item = item.Item(
-            name=self.name, state=self.state, rate=self.rate, is_raw=self.is_raw
+            name=self.name, state=self.state, rate=self.base_rate, is_raw=self.is_raw
         )
-        test_item_multiplied = self.multiplier_int * test_item
-        self.assertEqual(
-            test_item_multiplied.rate, test_item.rate * self.multiplier_int
-        )
-        self.assertEqual(test_item_multiplied.name, test_item.name)
-        self.assertEqual(test_item_multiplied.state, test_item.state)
-        self.assertEqual(test_item_multiplied.is_raw, test_item.is_raw)
+        test_item.multiply(self.multiplier_float)
 
-    def test_mul_float(self):
-        test_item = item.Item(
-            name=self.name, state=self.state, rate=self.rate, is_raw=self.is_raw
-        )
-        test_item_multiplied = test_item * self.multiplier_float
-
-        self.assertEqual(
-            test_item_multiplied.rate, test_item.rate * self.multiplier_float
-        )
-        self.assertEqual(test_item_multiplied.name, test_item.name)
-        self.assertEqual(test_item_multiplied.state, test_item.state)
-        self.assertEqual(test_item_multiplied.is_raw, test_item.is_raw)
-
-    def test_rmul_float(self):
-        test_item = item.Item(
-            name=self.name, state=self.state, rate=self.rate, is_raw=self.is_raw
-        )
-        test_item_multiplied = self.multiplier_float * test_item
-
-        self.assertEqual(
-            test_item_multiplied.rate, test_item.rate * self.multiplier_float
-        )
-        self.assertEqual(test_item_multiplied.name, test_item.name)
-        self.assertEqual(test_item_multiplied.state, test_item.state)
-        self.assertEqual(test_item_multiplied.is_raw, test_item.is_raw)
+        self.assertEqual(test_item.rate, self.base_rate * self.multiplier_float)
+        self.assertEqual(test_item.name, test_item.name)
+        self.assertEqual(test_item.state, test_item.state)
+        self.assertEqual(test_item.is_raw, test_item.is_raw)
 
 
 if __name__ == "__main__":
