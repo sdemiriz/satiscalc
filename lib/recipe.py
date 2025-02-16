@@ -17,5 +17,5 @@ class Recipe:
         self.machine = machine
         self.is_alternate = is_alternate
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'Recipe "{self.name}": Converts {self.inputs} to {self.outputs} in machine "{self.machine}"'
