@@ -1,6 +1,23 @@
 {
     "recipes": [
         {
+            "name": "Test Plate",
+            "inputs": [
+                {
+                    "name": "Test Ingot",
+                    "rate": 100
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "Test Plate",
+                    "rate": 50
+                }
+            ],
+            "machine": "Constructor",
+            "is_alternate": false
+        },
+        {
             "name": "Test Ingot",
             "inputs": [
                 {
