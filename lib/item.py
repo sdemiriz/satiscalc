@@ -19,11 +19,11 @@ class Item:
         """
         Return string representation of item
         """
-        return f"{self.rate} of item {self.name} in state {self.state}"
+        return f"{self.rate}x {self.name} ({self.state})"
 
     def __repr__(self) -> str:
         """
-        Return string representation of item call
+        Return string representation of item instance
         """
         return f"Item(name={self.name}, rate={self.rate}, state={self.state})"
 

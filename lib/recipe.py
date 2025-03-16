@@ -18,10 +18,12 @@ class Recipe:
         self.is_alternate = is_alternate
 
     def __str__(self) -> str:
-        return f'Recipe "{self.name}": Converts {self.inputs} to {self.outputs} in machine "{self.machine}"'
+        return (
+            f'Recipe "{self.name}": {self.inputs} --({self.machine})--> {self.outputs}'
+        )
 
     def __repr__(self) -> str:
-        return f'Recipe "{self.name}": Converts {self.inputs} to {self.outputs} in machine "{self.machine}"'
+        return f"Recipe(name={self.name}, inputs={self.inputs}, outputs={self.outputs}, machine={self.machine}, is_alternate={self.is_alternate})"
 
     def multiply(self, other: float) -> None:
 
@@ -40,4 +42,4 @@ class Recipe:
         return query_name in [i.name for i in self.inputs]
 
     def has_output(self, query_name: str) -> bool:
-        return query_name in [i.name for i in self.outputs]
+        return query_name in [o.name for o in self.outputs]
