@@ -5,13 +5,13 @@
             "inputs": [
                 {
                     "name": "Test Ingot",
-                    "rate": 100
+                    "rate": 50
                 }
             ],
             "outputs": [
                 {
                     "name": "Test Plate",
-                    "rate": 50
+                    "rate": 25
                 }
             ],
             "machine": "Constructor",
@@ -22,17 +22,54 @@
             "inputs": [
                 {
                     "name": "Test Ore",
-                    "rate": 100
+                    "rate": 30
                 }
             ],
             "outputs": [
                 {
                     "name": "Test Ingot",
-                    "rate": 50
+                    "rate": 30
                 }
             ],
             "machine": "Smelter",
             "is_alternate": false
+        }
+    ],
+    "items": [
+        {
+            "name": "Test Ore",
+            "state": "solid",
+            "is_raw": true
+        },
+        {
+            "name": "Test Ingot",
+            "state": "solid",
+            "is_raw": false
+        },
+        {
+            "name": "Test Plate",
+            "state": "solid",
+            "is_raw": false
+        }
+    ],
+    "machines": [
+        {
+            "name": "Smelter",
+            "min_mw": 4,
+            "max_mw": 4,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
+        },
+        {
+            "name": "Constructor",
+            "min_mw": 4,
+            "max_mw": 4,
+            "conveyor_inputs": 1,
+            "conveyor_outputs": 1,
+            "pipe_inputs": 0,
+            "pipe_outputs": 0
         }
     ]
 }
