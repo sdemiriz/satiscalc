@@ -1,22 +1,21 @@
 import unittest
-from lib import tree, item, recipe
+from lib import tree, item, recipe, globals
+
 
 class Step:
 
-    def __init__(self, goal: item.Item, recipes: list[recipe.Recipe], items: list[item.Item]):
+    def __init__(self, goal: item.Item, globals: globals.Globals):
         self.goal = goal
-        self.recipes = recipes
-        self.items = items
+        self.globals = globals
 
         self.children = []
+        # self.calculate_children()
 
     def __str__(self) -> str:
-        return f"Step to make {self.goal} from {self.children}"
+        return f"Step: {self.children} -> {self.goal}"
 
     def calculate_children(self):
-        # print(f"Can use the following recipes:\n{self.recipes}")
 
-        out = [r for r in self.recipes if r.has_output(self.goal)]
-        self.children.append(Step(goal=None, recipes=out, items=None))
-        
-        self.calculate_children()
+        for r in self.globals.recipes:
+            if r.has_output(self.goal.name):
+                return r
